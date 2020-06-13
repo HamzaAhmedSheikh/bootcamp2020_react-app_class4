@@ -22,8 +22,8 @@ function App() {
        <button onClick={() => setCount(0)} className="btn btn-outline-danger btn-sm m-2"> Reset </button>
        
        <div className={`container-fluid bg p-5 mt-4 mb-4 p-3 head ${isTheme ? 'headOne': '' }`}>
-        <h1 className="text-center"> Bootcamp 2020 Assignment #4 </h1>
-        <button onClick={() => setTheme(!isTheme)} className="btn btn-outline-success btn-sm m-2"> Update Theme </button>
+        <h1 className="text-center"> Bootcamp 2020 Assignment #4  </h1>
+        <button onClick={() => setTheme(!isTheme)} className="btn btn-outline-success btn-sm m-2"> Change Theme </button>
       </div>
        
     </div>

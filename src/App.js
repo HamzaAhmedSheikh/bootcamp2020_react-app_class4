@@ -1,10 +1,8 @@
 import React, {useState} from 'react';
-import Counter from './Counter'
-
+import Counter from './Counter';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.css'
-
-import { initNotification } from './Services/FirebaseService'
+import 'bootstrap/dist/css/bootstrap.css';
+import { initNotification } from './Services/FirebaseService';
 
 function App() {
 
